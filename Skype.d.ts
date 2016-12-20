@@ -1,7 +1,7 @@
-import Collection = SkypeWebSdk.Collection;
-import ErrorCallback = SkypeWebSdk.ErrorCallback;
+import Collection = Skype.Collection;
+import ErrorCallback = Skype.ErrorCallback;
 
-declare module SkypeWebSdk {
+declare module Skype {
     export interface ErrorCallback { (err?: Error): void; }
 
     export interface Event<Listener extends Function> {
