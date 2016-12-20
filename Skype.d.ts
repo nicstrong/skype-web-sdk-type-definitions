@@ -243,5 +243,7 @@ declare module Skype {
     }
 
     export function initialize(opts: any, success?: (api: Api) => any, fail?: ErrorCallback): void;
+    export function getVersion(): string;
+
 }
 
